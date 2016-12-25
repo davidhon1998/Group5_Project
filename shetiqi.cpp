@@ -36,6 +36,7 @@
 	      printf("17 is snake  go 7     79 is snake  go 58\n");
 	      printf("23 is ladder go 55    70 is ladder  go 85\n");
 	      printf("59 is snake  go 47    100 is Goal\n");
+	      printf("---------------------------------------------------\n");
 	printf("\n");
 	srand(time(NULL));
 	while (1){
@@ -43,6 +44,7 @@
 	printf("Player %d turn\n",turn);
 	 
 	while(1){	
+	  printf("_________________________________\n");
 	  printf("\nPress enter roll the dice to move");	
 	  scanf("%c",&dice);
 	
